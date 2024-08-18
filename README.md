@@ -4,4 +4,4 @@ This is a demo of a workaround for suppressing the console window when using [du
 
 This sample code demonstrates a workaround for an issue I was facing when attempting to use `duct` in a [Tauri](https://github.com/tauri-apps/tauri) app but realizing that the console windows were appearing when I did not want them to.
 
-There may be a more elegant solution that I am unware of as I have to add the `.create_no_window()` method before each `.run()`.
+There may be a more elegant solution that I am unware of as I have to add the `.create_no_window()` method before each `.run()`. Or a substitute function could be made for `.run()`.
